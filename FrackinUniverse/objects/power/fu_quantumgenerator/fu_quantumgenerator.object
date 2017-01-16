@@ -1,0 +1,67 @@
+{
+  "objectName" : "fu_quantumgenerator",
+  "rarity" : "legendary",
+    "colonyTags" : [ "science" ],
+  "category" : "wire",
+  "objectType" : "container",
+  "price" : 2500,
+  "description" : "Unmatched clean energy at 40 to 120u. Fuel type will decide power output.",
+  "shortdescription" : "^cyan;Quantum Reactor^white;",
+  "race" : "generic",
+  "printable" : false,
+
+  "inventoryIcon" : "fu_quantumgeneratoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fu_quantumgenerator_base.png",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "fu_quantumgenerator.animation",
+  "animationParts" : {
+    "screen" : "fu_quantumgenerator_screen.png",
+    "fans" : "fu_quantumgenerator_fans.png",
+    "base" : "fu_quantumgenerator_base.png"
+  },
+  "animationPosition" : [0, 0],
+  "soundEffect" : "/objects/power/fu_quantumgenerator/fu_quantumgenerator.ogg",
+  
+  "slotCount" : 1,
+  "uiConfig" : "/objects/power/fu_quantumgenerator/fu_quantumgenerator.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts" : [ "/objects/power/fu_quantumgenerator/fu_quantumgenerator.lua",
+                "/objects/power/isn_sharedpowerscripts.lua",
+		"/objects/isn_sharedobjectscripts.lua"],
+  "scriptDelta" : 90,
+  
+  "inputNodes" : [ [2, 4] ],
+  "outputNodes" : [ [2, 2] ],
+  
+  "isn_powerSupplier" : true,
+  "acceptablefuel" : {
+    "biofuelcannister" : 20,
+    "biofuelcannisteradv" : 30,
+    "uraniumrod" : 35,
+    "energiflower" : 40,
+    "plutoniumrod" : 40,
+    "tritium" : 45,
+    "vialproto" : 50,
+    "neptuniumrod" : 50,
+    "enricheduranium" : 55,
+    "thoriumrod" : 60,
+    "fu_hydrogenmetallic" : 65,
+    "biofuelcannistermax" : 65,
+    "enrichedplutonium" : 65,
+    "solariumstar" : 70, 
+    "deuterium" : 75,
+    "ultronium" : 80,
+    "liquidmetallichydrogen" : 85,
+    "liquiddeuterium" : 90,
+    "liquidelderfluid" : 100
+  }
+}

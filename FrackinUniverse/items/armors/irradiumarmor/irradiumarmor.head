@@ -1,0 +1,43 @@
+{
+  "itemName" : "irradiumhelm",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Sturdy, with a built in targeting HUD. ^cyan;Set Bonus: Deadly Cold Immunity 15% Cold Resist, 35% Radioactive Resist^reset;",
+  "shortdescription" : "Irradium Helm",
+  "category" : "headarmour",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+"level" : 4,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.7
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 19
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 20
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 9
+    },
+    "irradiumsetbonus",
+    {
+      "stat" : "fu_irradiumset_head",
+      "amount" : 1
+    }
+  ],
+
+"effectSources" : [ "icetrail" ]
+
+}

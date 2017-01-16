@@ -1,0 +1,11 @@
+{
+  "itemName" : "diodiahybrid",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "diodiahybrid.png",
+  "description" : "Regenerates energy regen and maximum energy.",
+  "shortdescription" : "Diodia Hybrid Fruit",
+  "category" : "food",
+
+  "effects" : [ [{"effect" : "energyregenfu15","duration" : 120}, "percentenergyboost5"] ]
+}

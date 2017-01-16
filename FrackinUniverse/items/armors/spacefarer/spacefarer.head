@@ -1,0 +1,43 @@
+{
+  "itemName" : "spacefarerhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Comes with a handy head-lamp for seeing in the dark. ^#e43774;-Upgradeable-^reset;. ^cyan;Set bonus: 25% Physical Resist, Immune - Fire, Ice, Slush, Proto, Nitrogen, Pressure^reset;",
+  "shortdescription" : "Spacefarer Helm",
+  "category" : "headarmour",
+  "tooltipKind" : "armornew2",
+  "learnBlueprintsOnPickup" : [ "spacefarerheadadv" ],
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+"level" : 3,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.75
+    },    
+    {
+      "stat" : "protection",
+      "amount" : 20
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 14
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 15
+    },
+    "headlamp",
+    "spacefarersetbonus",
+    {
+      "stat" : "fu_spacefarerset_head",
+      "amount" : 1
+    }
+  ],
+  "collectablesOnPickup" : { "fu_armorsmith" : "spacefarerhead" }
+}

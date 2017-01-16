@@ -1,0 +1,11 @@
+{
+  "itemName" : "magneticshielding",
+  "rarity" : "Common",
+  "price" : 20,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "magneticshielding.png",
+  "description" : "A material shielded against electromagnetic waves.",
+  "shortdescription" : "Electromagnetic Shielding",
+  "learnBlueprintsOnPickup" : [ "electromagnet" ],
+  "itemTags" : [ "reagent" ]
+}

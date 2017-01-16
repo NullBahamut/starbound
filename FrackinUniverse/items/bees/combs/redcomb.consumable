@@ -1,0 +1,8 @@
+{
+  "itemName" : "redcomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "redcomb.png",
+  "description" : "A delicious red honeycomb! Eat it!",
+  "shortdescription" : "Red Honeycomb",
+  "handPosition" : [0.0, 0]
+}

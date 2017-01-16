@@ -1,0 +1,12 @@
+{
+  "itemName" : "zathitails",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "zathitails.png",
+  "description" : "Stingy and painful to eat. But hey, low gravity!",
+  "shortdescription" : "Zathi Node",
+  "category" : "food",
+  "effects" : [ 
+    [ "lowgrav" ] 
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "onion",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "onionicon.png",
+  "description" : "A gurn onion. Tasty! Regenerates when well lit!",
+  "shortdescription" : "Gurn Onion",
+  "category" : "food",
+
+  "effects" : [ [
+      "lightregenproduce"
+    ] ]
+}

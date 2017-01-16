@@ -1,0 +1,84 @@
+[
+{"op":"add",
+	"path":"/hunting",
+	"value":[[0, {
+        "pool":[ {"weight":0.4, "item":"bone"},{"weight":0.15, "item":"monsterplating"},{"weight":0.4, "item":"leather"},{"weight":0.60, "item":"alienmeat"} ]
+        }
+	]]
+},
+{"op":"add",
+	"path":"/huntingquadruped",
+	"value":[[0, {
+	"pool":[ {"weight":0.35, "item":"bone"},{"weight":0.15, "item":"monsterplating"},{"weight":0.5, "item":"leather"},{"weight":0.75, "item":"alienmeat"} ]
+	}
+	]]
+},
+{"op":"add",
+	"path":"/huntingminiboss",
+	"value":[[0, {
+	"pool":[ {"weight":0.40, "item":"bone"},{"weight":0.25, "item":"monsterplating"},{"weight":0.5, "item":"leather"},{"weight":0.5, "item":"alienmeat"} ]
+	}
+	]]
+},
+{"op":"add",
+	"path":"/huntingflying",
+	"value":[[0, {
+	"pool":[ {"weight":0.25, "item":"bone"},{"weight":0.12, "item":"monsterplating"},{"weight":0.45, "item":"leather"},{"weight":0.85, "item":"rawpoultry"} ]
+	}
+	]]
+},
+{"op":"add",
+	"path":"/huntingplant",
+	"value":[[0, {
+	"pool":[ {"weight":0.55, "item":"plantfibre"},{"weight":0.03, "item":"livingroot"},{"weight":0.05, "item":"dnasample"} ]
+	}
+	]]
+},
+{"op":"add",
+	"path":"/adultpoptopHunting",
+	"value":[[0, {
+	"pool":[ 
+	{"weight":0.30, "item":"leather" },
+        {"weight" : 0.359, "item" : "alienmeat"},
+        {"weight" : 0.400, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "adultpoptopaf"}	
+	]
+	}
+	]]
+},
+{"op":"add",
+	"path":"/snakeHunting",
+	"value":[[0, {
+	"pool":[ 
+        {"weight" : 0.30, "item" : "reptilescales"},
+	{"weight":0.50, "item":"leather"},
+        {"weight" : 0.20, "item" : "venomsample"}
+	]
+	}
+	]]
+},
+{"op":"add",
+	"path":"/gleapHunting",
+	"value":[[0, {
+	"pool":[ 
+        {"weight" : 0.50, "item" : "livingroot"},
+        {"weight" : 0.002, "item" : "gleapaf"},	
+	{"weight":0.25, "item":"leather"},
+        {"weight" : 0.2408, "item" : "alienmeat"}
+	]
+	}
+	]]
+},
+{"op":"add",
+	"path":"/poptopHunting",
+	"value":[[0, {
+	"pool":[ 
+	{"weight":0.15, "item":"leather"},
+        {"weight" : 0.400, "item" : "alienmeat"},
+        {"weight" : 0.400, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "poptopaf"}	
+	]
+	}
+	]]
+}
+]

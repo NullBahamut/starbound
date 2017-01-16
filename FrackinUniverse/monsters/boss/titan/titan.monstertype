@@ -1,0 +1,318 @@
+{
+  "type" : "titan",
+  "shortdescription" : "Titanus Wrex",
+  "description" : "A notorious intergalactic pirate.",
+
+  "categories" : [ "titan" ],
+  "parts" : [ "body" ],
+
+  "animation" : "titan.animation",
+
+  "dropPools" : [ "ffwastelandChest", "ffwastelandChest", "ffwastelandChest" ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/boss/titan/monster.lua",
+      "/stats/monstereffects/monsterstatus_deathbombmagma.lua"    
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+      "hurtTime": 0.10,
+      "hurtWaitForGround": false,
+      "hurtWaitForGroundTime": 0.1,
+
+      "foundTargetActions" : [],
+      "fleeActions" : [],
+
+      "hostileActions" : [
+        {
+          "name" : "action-charge",
+          "cooldown" : 5.4,
+          "parameters" : {
+            "maximumRange" : 20,
+            "windupState" : "chargewindup",
+            "windupTime" : 1.15,
+            "windupSound" : "charge",
+            "chargeTime" : 0.5,
+            "chargeSpeed" : 45,
+            "chargeControlForce" : 1200,
+            "chargeState" : "charge",
+            "wallCrashSound" : "hit",
+            "wallCrashEmitter" : "",
+            
+            "winddownTime" : 0.5,
+            "winddownStopForce" : 1000,
+            "winddownState" : "chargewinddown"
+          }
+        },
+        {
+          "name" : "action-leap", 
+          "cooldown" : 0.5,
+          "parameters" : {
+            "minimumRange" : 2,
+            "maximumRange" : 12,
+            "maxXRange" : 20,
+            "windupTime" : 0.3,
+            "windupState" : "idle",
+
+            "leapVelocity" : 75,
+            "collisionCheck" : true,
+            "highArc" : true,
+            "leapState" : "jump",
+            "fallState" : "fall",
+
+            "winddownState" : "",
+            "winddownTime" : 0.2
+          }
+        },         
+        {
+          "name" : "action-fire",
+	  "cooldown" : 2,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 7,
+            "minimumRange" : 0,
+            "windupState" : "fire",
+            "windupSound" : "",
+            "windupTime" : 1.2,
+
+            "projectileType" : "firetitanswoosh",
+            "power" : 22,
+            "speed": 0,
+            "fireOffset" : [4.5, 0],
+            "aimAtTarget" : true,
+            "projectileCount" : 1,
+            "fireSound" : "hit",
+            "range": 50,
+            "fireState" : "",
+            "winddownState" : "",
+            "winddownTime" : 1.1
+          }
+        }      
+      ],
+
+      "periodicActions" : [],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 5,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10
+          }
+        },
+        {
+          "name" : "action-leap", 
+          "cooldown" : 0.5,
+          "parameters" : {
+            "minimumRange" : 2,
+            "maximumRange" : 12,
+            "maxXRange" : 20,
+            "windupTime" : 0.3,
+            "windupState" : "idle",
+
+            "leapVelocity" : 75,
+            "collisionCheck" : true,
+            "highArc" : true,
+            "leapState" : "jump",
+            "fallState" : "fall",
+
+            "winddownState" : "",
+            "winddownTime" : 0.2
+          }
+        }          
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "action-leap", 
+          "cooldown" : 0.5,
+          "parameters" : {
+            "minimumRange" : 4,
+            "maximumRange" : 12,
+            "maxXRange" : 20,
+            "windupTime" : 0.3,
+            "windupState" : "idle",
+
+            "leapVelocity" : 75,
+            "collisionCheck" : true,
+            "highArc" : true,
+            "leapState" : "jump",
+            "fallState" : "fall",
+
+            "winddownState" : "",
+            "winddownTime" : 0.2
+          }
+        },          
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 5,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 6.0,
+          "parameters" : {
+            "wanderTime" : [5, 15],
+            "canJump" : true,
+            "maxJumps" : 5,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10
+          }
+        }
+      ],
+
+      "concurrentActions" : [ ],
+      "deathActions" : [ ]      
+
+    },
+
+
+    "damageParts" : {
+      "body" : {
+        "damage" : 16,
+
+        "teamType" : "enemy",
+        "damageSourceKind" : "slash",
+        "knockback" : 30,
+        "statusEffects" : [ ]
+      }
+    },
+
+    "touchDamage" : {
+      "poly" : [ [-4.5,2.1], [-4.75,-4.85], [-0.65,-5.15], [-0.5,-2.35], [2.2,-2.55], [2.25,0.35], [-2,2.4] ],
+      "damage" : 22,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 40,
+      "statusEffects" : [ "burning" ]
+    },
+
+    "metaBoundBox" : [-4.5, -5, 0.8, 0.65],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" :[ [-4.5,0.8], [-4.7,-5], [-0.65,-5], [-0.7,0.65] ],
+
+      "mass" : 1.5,
+      "walkSpeed" : 6,
+      "runSpeed" : 11,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesWeatherStatusEffects" : true,
+      "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 320
+        },
+        "protection" : {
+          "baseValue" : 0
+        },
+        "lavaImmunity" : {
+          "baseValue" : 1.0
+        },  
+        "ffextremeheatImmunity" : {
+          "baseValue" : 1.0
+        },         
+        "biomeheatImmunity" : {
+          "baseValue" : 1.0
+        },           
+        "fireStatusImmunity" : {
+          "baseValue" : 1.0
+        },        
+        "powerMultiplier" : {
+          "baseValue" : 1.45
+        },
+        "poisonResistance" : { "baseValue" : 0 },
+        "fireResistance" : { "baseValue" : 0 },
+        "iceResistance" : { "baseValue" : 0 },
+        "electricResistance" : { "baseValue" : 0 },
+        "physicalResistance" : { "baseValue" : 0.5 },
+        "shadowResistance" : { "baseValue" : 0 }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : false,
+    "captureHealthFraction" : 0.24,
+    "nametagColor" : [64, 200, 255]
+  }
+}

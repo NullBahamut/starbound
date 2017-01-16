@@ -1,0 +1,13 @@
+{
+  "itemName" : "vanusflower",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "vanusflowericon.png",
+  "description" : "Grants increased protection from harm.",
+  "shortdescription" : "Vanus Flower",
+  "category" : "food",
+
+      "effects" : [ [
+     "defense2"
+    ] ]
+}

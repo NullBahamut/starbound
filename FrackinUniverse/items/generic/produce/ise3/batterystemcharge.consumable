@@ -1,0 +1,11 @@
+{
+  "itemName" : "batterystemcharge",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "batterystemcharge.png",
+  "description" : "Increase your energy for a while.",
+  "shortdescription" : "Battery Stem Charge",
+  "category" : "food",
+
+  "effects" : [ [ "maxenergyboost5", "energyregenfu05" ] ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "carbonplate",
+  "rarity" : "Uncommon",
+    "price" : 120,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "carbonplate.png",
+  "description" : "Carbon plating can be used for armor or other goods.",
+  "shortdescription" : "^#77acc3;Carbon Plate^white;",
+  "learnBlueprintsOnPickup" : [ 
+  "fu_watcher", 
+  "fucarbonhammer", 
+  "fucarbondagger", 
+  "carbonaxe", 
+  "carbonpickaxe", 
+  "carbonspear", 
+  "carbonbow", 
+  "carbonblade", 
+  "napalmcannon" 
+  ],
+  "itemTags" : [ "reagent" ],
+    "collectablesOnPickup" : { "fu_geology" : "carbonplate" }
+}

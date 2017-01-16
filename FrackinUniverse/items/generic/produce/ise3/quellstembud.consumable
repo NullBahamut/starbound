@@ -1,0 +1,13 @@
+{
+  "itemName" : "quellstembud",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "quellstembud.png",
+  "description" : "Total immunity to heat, lava and fire.",
+  "shortdescription" : "Quellstem Bud",
+  "category" : "food",
+
+      "effects" : [ [
+      "fireStatusImmunity","lavaimmunity","ffextremeheatimmunity"
+    ] ]
+}

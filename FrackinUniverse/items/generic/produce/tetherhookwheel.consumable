@@ -1,0 +1,13 @@
+{
+  "itemName" : "tetherhookwheel",
+  "rarity" : "rare",
+  "price" : 20,
+  "inventoryIcon" : "tetherhookwheel.png",
+  "description" : "Warps you around to spare you from death.", 
+  "shortdescription" : "Tetherhook Wheel",
+  "category" : "food",
+
+      "effects" : [ [
+      "warp"
+    ] ]
+}

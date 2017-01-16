@@ -1,0 +1,12 @@
+{
+  "itemName" : "bluemelon",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "bluemelon.png",
+  "description" : "This amazingly tasty fruit makes you walk on liquids!",
+  "shortdescription" : "Blue Melon",
+  "category" : "food",
+
+  "effects" : [ [ "waterwalk" ] ]
+
+}

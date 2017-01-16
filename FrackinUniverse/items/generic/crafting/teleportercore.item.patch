@@ -1,0 +1,14 @@
+[
+  {"op":"add","path":"/learnBlueprintsOnPickup","value": [ 
+  "blackteleporter",
+  "brassteleporter",
+  "futureteleporter",
+  "scienceteleporter",
+  "stoneteleporter",
+  "tombteleporter",
+  "woodenteleporter",
+  "crossteleporter",
+  "futeleporter",
+  "translocator"
+  ] }
+]

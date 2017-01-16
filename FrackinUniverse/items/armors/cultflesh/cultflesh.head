@@ -1,0 +1,41 @@
+{
+  "itemName" : "cultfleshhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Nothing says respect and power like a cow's skull. ^cyan;Set Bonus: %20 Shadow resistance and Shadow Taint immunity^reset;",
+  "shortdescription" : "Flesh Helmet",
+  "category" : "headarmour",
+  "tooltipKind" : "armornew2",
+  "level" : 4,
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.6
+    },
+    {
+      "stat" : "protection",
+      "amount" : 20
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 20
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 3
+    },
+    "cultfleshsetbonus",
+    {
+      "stat" : "fu_cultfleshset_head",
+      "amount" : 1
+    }
+  ]
+}

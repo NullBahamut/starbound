@@ -1,0 +1,14 @@
+{
+  "name" : "regenerationminor000",
+    "blockingStat" : "healingStatusImmunity",
+  "effectConfig" : {
+    "healTime" : 320
+  },
+  "defaultDuration" : 90,
+
+  "scripts" : [
+    "regenerationminor.lua"
+  ],
+
+  "animationConfig" : "regeneration.animation"
+}

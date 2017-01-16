@@ -1,0 +1,41 @@
+{
+  "itemName" : "carbonblade",
+  "price" : 200,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Finely made. Causes targets to bleed.",
+  "shortdescription" : "Carbon Blade",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "carbonblade.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "carbonblade.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo2",
+  "primaryAbility" : {
+    "fireTime" : 0.63,
+    "baseDps" : 7
+  },
+
+  //"altAbilityType" : "risingslash",
+  "critChance" : 5,
+  "critBonus" : 5,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "collectablesOnPickup" : { "fu_warrior2" : "carbonblade" }
+  
+  
+  
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "glarestalkeye",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "glarestalkeye.png",
+  "description" : "Grants 40% damage boost. Immune to insanity.",
+  "shortdescription" : "Glarestalk Eye",
+   "category" : "food",
+
+  "effects" : [ [
+      "damagebonus6", "insanityimmunity"
+    ] ]
+}

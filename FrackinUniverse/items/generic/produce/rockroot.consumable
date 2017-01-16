@@ -1,0 +1,13 @@
+{
+  "itemName" : "rockroot",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "rockrooticon.png",
+  "description" : "Grants a defense bonus.",
+  "shortdescription" : "Rockroot",
+  "category" : "food",
+
+    "effects" : [ [
+       "defense5"
+    ] ]
+}

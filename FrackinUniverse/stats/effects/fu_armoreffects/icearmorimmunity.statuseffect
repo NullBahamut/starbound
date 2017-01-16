@@ -1,0 +1,11 @@
+{
+  "name" : "icearmorimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "icearmorimmunity.lua"
+  ],
+  "label" : "X-Ice",
+  "icon" : "/interface/statuses/cold.png"
+}

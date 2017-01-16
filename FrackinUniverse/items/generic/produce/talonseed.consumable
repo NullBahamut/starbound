@@ -1,0 +1,13 @@
+{
+  "itemName" : "talonseed",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "talonseed.png",
+  "description" : "Heals 30% health.",
+  "shortdescription" : "Talon Sprout",
+  "category" : "food",
+
+  "effects" : [ [
+        "heal_30"
+    ] ]
+}

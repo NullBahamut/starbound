@@ -1,0 +1,13 @@
+{
+  "itemName" : "garpberry",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "garpberry.png",
+  "description" : "Not a great idea to eat, but quite useful via extraction.",
+  "category" : "food",
+
+  "shortdescription" : "Garp Berry",
+  "effects" : [ [
+      "weakpoison"
+    ] ]
+}

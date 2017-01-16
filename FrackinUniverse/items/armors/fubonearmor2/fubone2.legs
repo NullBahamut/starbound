@@ -1,0 +1,40 @@
+{
+  "itemName" : "fubonearmor2legs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Set Bonus:^cyan; Immune to Acid. On Sulphuric worlds gain +10% Health, Power and Physical Resistance^reset;",
+  "shortdescription" : "Bone-Steel Legs",
+  "category" : "legarmour",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+  "level" : 3,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.22
+    },  
+    {
+      "stat" : "protection",
+      "amount" : 8
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 6
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 6
+    },
+    "bonesetbonus2",
+    {
+      "stat" : "fu_boneset2_legs",
+      "amount" : 1
+    }     
+  ]
+}

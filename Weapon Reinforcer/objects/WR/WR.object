@@ -1,0 +1,55 @@
+{
+  "objectName" : "WR",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A Pod for reinforcing weapons.",
+  "shortdescription" : "Weapon Reinforcer Pod",
+  "race" : "generic",
+  "health" : 1.5,
+
+  
+  "subtitle" : "testin",
+  "apexDescription" : "It has a metallic appearance, but it is actually made from organic material.",
+  "avianDescription" : "The latch looks sort of like a berry, which is nice.",
+  "floranDescription" : "It's shiny, but it looks too ssstupid to interest Floran.",
+  "glitchDescription" : "Unenthusiastic. What a nice chest...",
+  "humanDescription" : "I know it's made of cells, but it looks like it's made of candy.",
+  "hylotlDescription" : "Understatement was not a word familiar to this chest's designer.",
+  "novakidDescription" : "A little too conspicuous to keep anythin' important in.",
+
+  "inventoryIcon" : "WRicon.png",
+  "orientations" : [
+    {
+      "image" : "WRL.png:<color>.<key>",
+      "imagePosition" : [-21, 0],
+		
+	  "direction" : "left",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "WRR.png:<color>.<key>",
+      "imagePosition" : [-21, 0],
+		
+	  "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 1,
+  "uiConfig" : "/interface/WR.config",
+  "scriptDelta": 5,
+  "scripts" : [ "/objects/WR/WR.lua" ],
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "retexdirt",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "retexdirt.png",
+  "description" : "A bunch of dirt.",
+  "shortdescription" : "Dirt",
+
+  "materialId" : 6615
+}

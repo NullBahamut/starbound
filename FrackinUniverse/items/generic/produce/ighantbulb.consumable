@@ -1,0 +1,21 @@
+{
+  "itemName" : "ighantbulb",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "ighantbulb.png",
+  "description" : "Strange rubbery plant loaded with yum.",
+  "shortdescription" : "Ighant Bulb",
+  "category" : "food",
+
+  "learnBlueprintsOnPickup" : [ "banespear" ],
+  "effects" : [ [
+      {
+        "effect" : "bouncy",
+        "amount" : 1.0,
+        "duration" : 120
+      }
+    ] ],
+  "blockingEffects" : [
+    "bouncy"
+  ]
+}

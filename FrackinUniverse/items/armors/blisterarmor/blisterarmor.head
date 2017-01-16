@@ -1,0 +1,41 @@
+{
+  "itemName" : "blisterhelm",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "An effective lightsource and proto-shield.",
+  "shortdescription" : "Blister Helm",
+  "category" : "^#e43774;Upgradeable Armor^reset;",
+  "tooltipKind" : "armornew2",
+  "learnBlueprintsOnPickup" : [ "blisterhelmalt"],
+  "level" : 3,
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.45
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 13
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 18
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 9
+    },    
+    "protoimmunity",
+    "glowpurple"
+  ],
+  "collectablesOnPickup" : { "fu_armorsmith" : "blisterhelm" }
+
+}

@@ -1,0 +1,32 @@
+[
+	{"op":"add","path":"/learnBlueprintsOnPickup","value": [
+	"bugnet2",
+	"mantizitier2pants",
+	"mantizitier2head",
+	"mantizitier2chest",
+	"tungstenmagnum",
+	"tungstenshotgun",
+        "tungstenbow",
+        "hardenedsteelblade",
+        "genecabinet",
+        "genestorage",
+        "fusteelgirdirmaterial",
+        "microscope",
+        "retexironblock",
+        "labfence",
+        "isn_powersensor",
+        "isn_solarpanel",
+        "isn_hydroponicstray",
+        "isn_battery_t1",
+	"fu_powersensorlarge",
+	"isn_powersensor",
+	"energyassault",
+	"laspistol",
+	"lasrifle",
+	"fu_laserturret",
+	"bees_industrialcentrifuge",
+	"honeyjarrer",
+	"handhoe",
+	"fudefenseaugment1"
+    ] }
+]

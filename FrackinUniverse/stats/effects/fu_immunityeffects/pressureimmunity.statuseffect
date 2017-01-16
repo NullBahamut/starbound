@@ -1,0 +1,11 @@
+{
+  "name" : "pressureimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "pressureimmunity.lua"
+  ],
+  "label" : "X-Pressure",
+  "icon" : "/interface/statuses/pressure.png"
+}

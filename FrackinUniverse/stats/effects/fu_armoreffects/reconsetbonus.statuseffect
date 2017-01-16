@@ -1,0 +1,16 @@
+{
+  "name" : "reconsetbonus",
+  "effectConfig" : {
+  "speedBonus" : 1.1,
+  "jumpBonus" : 1.05,
+   "powerModifier" : 1.10
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "setbonuses_common.lua",
+    "reconsetbonus.lua"
+  ],
+  "label" : "Recon I",
+  "icon" : "/interface/statuses/recon.png"
+}

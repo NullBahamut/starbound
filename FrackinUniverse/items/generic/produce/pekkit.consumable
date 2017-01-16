@@ -1,0 +1,14 @@
+{
+  "itemName" : "pekkit",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "pekkiticon.png",
+  "description" : "This thing radiates cold. Generates a protective frost aura.",
+  "shortdescription" : "Pekkit",
+  "category" : "food",
+
+  "learnBlueprintsOnPickup" : [ "pekkitfreeze_freezegrenade" ],
+  "effects" : [ [
+      "iceburst"
+    ] ]
+}

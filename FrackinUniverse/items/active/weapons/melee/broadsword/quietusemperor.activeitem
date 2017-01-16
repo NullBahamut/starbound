@@ -1,0 +1,39 @@
+{
+  "itemName" : "quietusemperor",
+  "price" : 1500,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Heavy-duty quietus weapon. Slow as molasses, but brutally deadly.",
+  "shortdescription" : "Emperor Blade",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "quietusemperor.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "quietusemperor.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.05,
+    "baseDps" : 11.25
+  },
+
+  "altAbilityType" : "fugroundslamfire",
+
+  "critChance" : 4, 
+  "critBonus" : 15, 
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+    "collectablesOnPickup" : { "fu_warrior" : "quietusemperor" }
+}

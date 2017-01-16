@@ -1,0 +1,4 @@
+[
+	{"op":"add","path":"/learnBlueprintsOnPickup","value": [ "fucellgun", "fu_lasereyestaff", "fumonsterclaw", "fucellsword" ] },
+        {"op":"replace","path":"/price","value": 20 }	
+]

@@ -1,0 +1,13 @@
+{
+  "itemName" : "mint",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "mint.png",
+  "description" : "Provides energy regeneration.",
+  "shortdescription" : "Star Mint",
+  "category" : "food",
+
+  "effects" : [ [
+     "energyregenfu10"
+    ] ]
+}

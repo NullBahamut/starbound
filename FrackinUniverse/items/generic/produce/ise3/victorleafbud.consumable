@@ -1,0 +1,17 @@
+{
+  "itemName" : "victorleafbud",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "victorleafbud.png",
+  "description" : "Grants an enormous run boost.",
+  "shortdescription" : "Victor Leaf Bud",
+  "category" : "food",
+
+      "effects" : [ [
+      {
+        "effect" : "runboost",
+        "amount" : 0.80,
+        "duration" : 120
+      }
+    ] ]
+}

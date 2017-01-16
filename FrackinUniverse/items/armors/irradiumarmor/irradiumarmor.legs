@@ -1,0 +1,37 @@
+{
+  "itemName" : "irradiumlegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Provides excess energy reserves. ^cyan;Set Bonus: Deadly Cold Immunity 15% Cold Resist, 35% Radioactive Resist^reset;",
+  "shortdescription" : "Irradium Greaves",
+  "category" : "legarmour",
+  "tooltipKind" : "armornew2",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+"level" : 4,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.5
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 15
+    },
+    "energyregenfu_armor30",
+    {
+      "stat" : "maxHealth",
+      "amount" : 7
+    },
+    "irradiumsetbonus",
+    {
+      "stat" : "fu_irradiumset_legs",
+      "amount" : 1
+    }
+  ],
+"effectSources" : [ "icetrail" ]
+}

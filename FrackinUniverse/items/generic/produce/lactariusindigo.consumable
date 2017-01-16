@@ -1,0 +1,13 @@
+{
+  "itemName" : "lactariusindigo",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "lactariusindigo.png",
+  "description" : "Heals 25% damage and increases energy.",
+  "shortdescription" : "Lactarius Indigo Mushroom",
+  "category" : "food",
+
+  "effects" : [ [
+      "heal_25", "maxenergyboost2"
+    ] ]
+}

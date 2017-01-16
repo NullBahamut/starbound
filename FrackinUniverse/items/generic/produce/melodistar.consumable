@@ -1,0 +1,13 @@
+{
+  "itemName" : "melodistar",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "melodistaricon.png",
+  "description" : "A star plant from space! Increases energy and health maximum.",
+  "shortdescription" : "Melodistar",
+  "category" : "food",
+
+  "effects" : [ [
+        "maxenergyboost5", "maxhealthboost4"
+    ] ]
+}

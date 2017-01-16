@@ -1,0 +1,10 @@
+{
+  "itemName" : "biscorn",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "biscornicon.png",
+  "description" : "Boosts energy and health.",
+  "shortdescription" : "Biscorn",
+  "category" : "food",
+  "effects" : [ [ "maxhealthboost1", "maxenergyboost1" ] ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "nisscap",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "nisscap.png",
+  "description" : "Niss posseses the ability to shield you from tar, mud and clay.",
+  "shortdescription" : "Niss Cap",
+  "category" : "food",
+
+  "effects" : [ [
+      "blacktarimmunity", "fumudslowimmunity"
+    ] ]
+}

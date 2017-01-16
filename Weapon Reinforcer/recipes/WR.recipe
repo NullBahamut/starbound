@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 999 } 
+  ],
+  "output" : {
+    "item" : "WR",
+    "count" : 1
+  },
+  "duration" : 1,
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

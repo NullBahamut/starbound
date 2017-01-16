@@ -1,0 +1,12 @@
+{
+  "itemName" : "circuitboard",
+  "price" : 4,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "circuitboard.png",
+  "description" : "It's a typical circuit board, used in many electronics.",
+  "radioMessagesOnPickup" : [ "pickupCircuitboard" ],
+  "learnBlueprintsOnPickup" : [ "advcircuit", "cpu", "slimerooftrap", "lavarooftrap" ],
+  "shortdescription" : "Circuit Board",
+  "itemTags" : [ "reagent" ]
+}

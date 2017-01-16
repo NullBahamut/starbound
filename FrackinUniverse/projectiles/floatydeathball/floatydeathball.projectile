@@ -1,0 +1,39 @@
+{
+  "projectileName" : "floatydeathball",
+  "physics" : "floatydeath",
+  "speed" : 2,
+  "bounces" : 24,
+  "timeToLive" : 20,
+  "image" : "floatydeathball.png",
+  "animationCycle" : 1.5,
+  "animationLoops" : false,
+  "orientationLocked" : true,
+  "flippable" : true,
+  "fullbright" : true,
+  "scripts" : [ "homingarrow.lua" ],
+  "baseHomingControlForce" : 9,
+  "lightColor" : [160, 160, 0],
+  "frameNumber" : 2,
+  "periodicActions" : [
+    {
+      "time" : 0.09,
+      "loop" : true,
+      "action" : "projectile",
+      "type" : "plasmabullet",
+      "inheritDamageFactor" : 1.0,
+      "fuzzAngle" : 360
+   }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosion.config"
+    },    
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/weapons/energypew.ogg", "/sfx/weapons/energyweapon2.ogg" ]
+    }
+  ],
+  "power" : 1,
+  "damageKind" : "fireplasma"
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "goldenfleece", "count" : 5 },
+    { "item" : "gene_regen", "count" : 3 },
+    { "item" : "fuamberchunk", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fulightpriestpants",
+    "count" : 1
+  },
+  "groups" : [ "clothingfabricator", "armors", "all" ]
+}

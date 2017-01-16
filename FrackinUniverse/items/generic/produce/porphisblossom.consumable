@@ -1,0 +1,13 @@
+{
+  "itemName" : "porphisblossom",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "porphisblossom.png",
+  "description" : "Grants damage bonus and increased health.",
+  "shortdescription" : "Porphis Blossom",
+  "category" : "food",
+
+  "effects" : [ [
+      "damagebonus3", "percenthealthboost25"
+    ] ]
+}

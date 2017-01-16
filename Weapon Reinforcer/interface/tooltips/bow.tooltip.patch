@@ -1,0 +1,24 @@
+[
+	{
+		"op": "add",
+		"path": "/reinforceTitleLabel",
+		"value": {
+			"type" : "label",
+			"position" : [9, 35],
+			"hAnchor" : "left",
+			"value" : "Reinforcement:"
+		  }
+	},
+	
+	{
+		"op": "add",
+		"path": "/reinforceLabel",
+		"value": {
+			"type" : "label",
+			"position" : [130, 35],
+			"hAnchor" : "right",
+			"wrapWidth" : 126,
+			"value" : "+0"
+		  }
+	}
+]

@@ -1,0 +1,14 @@
+{
+  "itemName" : "lumivine",
+  "rarity" : "rare",
+  "price" : 100,
+  "inventoryIcon" : "lumivine.png",
+  "description" : "They have a faintly eggy taste. Makes you immune to extreme pressure for 5 minutes.",
+  "shortdescription" : "Lumivine",
+  "category" : "food",
+
+  "effects" : [ [
+      "pressureimmunity"
+    ] ],
+  "learnBlueprintsOnPickup" : [ "lumivineseed" ]
+}

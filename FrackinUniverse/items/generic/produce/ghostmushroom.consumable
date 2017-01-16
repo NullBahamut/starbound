@@ -1,0 +1,16 @@
+{
+  "itemName" : "ghostmushroom",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "ghostmushroom.png",
+  "description" : "Provides invisibility to the eater of this fungus.",
+  "shortdescription" : "Ghost Mushroom",
+  "category" : "food",
+
+  "effects" : [ [
+      {
+        "effect" : "invisible",
+	      "duration" : 60
+      }
+    ] ]
+}

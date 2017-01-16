@@ -1,0 +1,13 @@
+{
+  "itemName" : "stranglevineroot",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "stranglevineroot.png",
+  "description" : "The thorns damage attackers.",
+  "shortdescription" : "Stranglevine Root",
+  "category" : "food",
+
+  "effects" : [ [
+        "thornsstranglevine"
+    ] ]
+}

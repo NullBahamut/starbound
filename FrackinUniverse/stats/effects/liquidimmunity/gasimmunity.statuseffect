@@ -1,0 +1,11 @@
+{
+  "name" : "gasimmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "gasimmunity.lua"
+  ],
+  "label" : "X-Gas",
+  "icon" : "/interface/statuses/gas.png"
+}

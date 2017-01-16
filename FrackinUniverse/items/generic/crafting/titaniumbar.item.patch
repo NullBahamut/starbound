@@ -1,0 +1,21 @@
+[
+	{"op":"add","path":"/learnBlueprintsOnPickup","value": [
+	"fuprotectorchest",
+	"fuprotectorhead",
+	"fuprotectorpants",
+	"titaniummachinepistol",
+	"titaniumsniperrifle",
+	"gladiatorshield",
+	"battery",
+	"mantizitier3pants",
+	"mantizitier3head",
+	"mantizitier3chest",
+	"teslastaff1",
+	"minirocketlauncher",
+	"fu_rocketturret",
+	"kelpsteelhatchet",
+	"spacefarerchest",
+    "spacefarerhead",
+    "spacefarerpants"
+	] }
+]

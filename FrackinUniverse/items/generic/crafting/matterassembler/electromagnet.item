@@ -1,0 +1,17 @@
+{
+  "itemName" : "electromagnet",
+  "rarity" : "uncommon",
+  "price" : 100,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "electromagnet.png",
+  "description" : "An advanced electromagnet.",
+  "shortdescription" : "^#77acc3;Electromagnet^reset;",
+  "learnBlueprintsOnPickup" : [
+  "fuwallcling_tech",
+  "laspistol",
+  "lasrifle",
+  "armcannon",
+  "sprinklerroofweak"
+  ],
+  "itemTags" : [ "reagent" ]
+}

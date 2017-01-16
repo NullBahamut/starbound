@@ -1,0 +1,13 @@
+{
+  "itemName" : "fuspongeweed",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "spongeweed.png",
+  "description" : "Completely absorbs poison for quite a while.",
+  "shortdescription" : "Spongeweed Slice",
+    "category" : "food",
+
+  "effects" : [ [
+      "poisonimmunityspongeweed"
+    ] ]
+}

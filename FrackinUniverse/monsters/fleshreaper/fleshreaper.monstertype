@@ -1,0 +1,210 @@
+{
+  "type" : "fleshreaper",
+  "shortdescription" : "Flesh Reaper",
+  "description" : "With a name like this, clearly they want your love.",
+  "categories" : [ "fleshreaper" ],
+  "parts" : [ "body" ],
+
+  "animation" : "fleshreaper.animation",
+
+  "dropPools" : [ { "default" : "fleshreaperLoot", "bow" : "pteropodHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+    
+    "renderLayer" : "foregroundEntity",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "targetEntityTypes" : [ "player", "npc", "monster" ],
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 5.0,
+
+      "hurtTime" : 0.25,
+      "hurtWaitForGround" : false,
+      
+      "foundTargetActions" : [ ],
+
+      "fleeActions" : [ ],
+
+      "hostileActions" : [ 
+      
+       {
+          "name" : "action-fire",
+          "cooldown" : 4,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 20,
+            "minimumRange" : 5,
+            "windupState" : "idle",
+            "windupTime" : 1.25,
+
+            "projectileType" : "bioblast",
+            "power" : 20,
+            "fireOffset" : [2, 0],
+            "aimAtTarget" : true,
+            "onGround" : false,
+            "fireState" : "fire",
+            "fireSound" : "fire",
+            "inaccuracy" : 0.05,
+            "projectileCount" : 3,
+            "projectileInterval" : 0.05,
+            "winddownState" : "firewinddown",
+            "winddownTime" : 1.5
+          }
+        },
+        {
+          "name" : "action-charge",
+          "cooldown" : 2.5,
+          "parameters" : {
+            "maximumRange" : 15,
+            "windupStopForce" : 50,
+            "windupTime" : 1,
+            "windupState" : "idle",
+            "onGround" : false,
+
+            "wallCollide" : true,
+            "aimAtTarget" : true,
+            "rotateToTarget" : false,
+            "chargeTime" : 0.45,
+            "chargeSpeed" : 55,
+            "chargeControlForce" : 850,
+
+            "winddownState" : "melee",
+            "winddownStopForce" : 500,
+            "winddownTime" : 0.5
+          }
+        }
+      ],
+
+      "periodicActions" : [
+       ],
+
+      "approachActions" : [
+        {
+          "name" : "approach-fly",
+          "parameters" : {
+            "usePathfinding" : false,
+            "minRange" : 4,
+            "maxRange" : 12            
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-fly"
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "emerge-fly"
+        }
+      ],
+
+      "concurrentActions" : [ ],
+
+      "concurrentHostileActions" : [ ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [-1.875,2.562], [-1.812,-2.25], [1.312,-2.438], [1.125,2.688] ],
+      "damage" : 1,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "lash",
+      "knockback" : 5,
+      "statusEffects" : [ "puseffect" ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.875,2.562], [-1.812,-2.25], [1.312,-2.438], [1.125,2.688] ],
+
+      "mass" : 0.5,
+      "walkSpeed" : 4,
+      "runSpeed" : 8,
+      "gravityEnabled" : false,
+
+      "airFriction" : 2,
+      "airForce" : 80,
+      "flySpeed" : 12
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesWeatherStatusEffects" : true,
+      "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.16
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 5
+        },
+        "maxHealth" : {
+          "baseValue" : 78
+        },
+        "protection" : {
+          "baseValue" : 36.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "pusImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "captureHealthFraction" : 0.5,
+    "captureParticles" : "captureParticles"
+  }
+}

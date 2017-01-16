@@ -1,0 +1,13 @@
+{
+  "itemName" : "tentacleproduce",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "tentacleproduce.png",
+  "description" : "Lashes out at those who harm you.",
+  "shortdescription" : "Tentacles",
+  "category" : "food",
+
+      "effects" : [ [
+          "thornsstranglevinesuper"
+    ] ]
+}

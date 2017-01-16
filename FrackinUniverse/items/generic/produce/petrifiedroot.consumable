@@ -1,0 +1,14 @@
+{
+  "itemName" : "petrifiedroot",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "petrifiedrooticon.png",
+  "description" : "Grants a huge defense boost. Resists shadow gas.", 
+  "shortdescription" : "Shadow Root",
+  "category" : "food",
+
+  "effects" : [ [
+      "defense4",
+      "shadowgasImmunity"
+    ] ]
+}

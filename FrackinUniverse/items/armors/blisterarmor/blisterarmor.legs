@@ -1,0 +1,40 @@
+{
+  "itemName" : "blisterpants",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Protects while glowing and protecting against Proto-poison.",
+  "shortdescription" : "Blister Greaves",
+  "category" : "^#e43774;Upgradeable Armor^reset;",
+  "tooltipKind" : "armornew2",
+  "learnBlueprintsOnPickup" : [ "blisterpantsalt"],
+  "level" : 3,
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.32
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 9
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 18
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 6
+    },
+    "protoimmunity",
+   "glowpurple"
+  ],
+    "questTags" : [ "tier4armor" ]
+}

@@ -1,0 +1,37 @@
+{
+  "itemName" : "coralstinger",
+  "price" : 1500,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Jagged and not-too-friendly.",
+  "shortdescription" : "Coral Stingblade",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "coralstinger.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combopierce.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "coralstinger.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "piercecombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 8.75
+  },
+
+  "altAbilityType" : "fuwaterslash",
+  "critChance" : 4, 
+  "critBonus" : 3, 
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

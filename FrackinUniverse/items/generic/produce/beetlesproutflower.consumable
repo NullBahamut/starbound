@@ -1,0 +1,11 @@
+{
+  "itemName" : "beetlesproutflower",
+  "rarity" : "uncommon",
+  "price" : 10,
+  "inventoryIcon" : "beetlesproutflower.png",
+  "description" : "Smells like bacon, tastes like snot. Grants +30% defense and increased Shield regen.",
+    "category" : "food",
+
+  "shortdescription" : "Beetle Sprout Flower",
+  "effects" : [ [ "percentarmorboost30", "shieldregen1" ] ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "neuropod",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "neuropod.png",
+  "description" : "A powerhouse of effects.",
+  "shortdescription" : "Neuropod Bulb",
+  "category" : "food",
+
+  "effects" : [ [
+      {
+        "effect" : "energyregenfu50",
+        "duration" : 125
+      },
+      {
+        "effect" : "runboost",
+        "amount" : 0.35,
+        "duration" : 125
+      },
+      {
+        "effect" : "lowgrav",
+        "amount" : 0.15,
+        "duration" : 125
+      },
+      {
+        "effect" : "jumpboost",
+        "amount" : 0.35,
+        "duration" : 125
+      }
+    ] ]
+}

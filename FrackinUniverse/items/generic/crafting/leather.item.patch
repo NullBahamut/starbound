@@ -1,0 +1,11 @@
+[
+  {"op":"add","path":"/learnBlueprintsOnPickup","value": [ 
+        "deckardchest", 
+        "deckardpants",
+	"mantizitier1pants",
+	"mantizitier1head",
+	"mantizitier1chest",
+	"leathershield",
+	"ropewhip"
+  ] }
+]

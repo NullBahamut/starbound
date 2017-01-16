@@ -1,0 +1,13 @@
+{
+  "itemName" : "wubstem",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "wubstemicon.png",
+  "description" : "Increases maximum energy.",
+  "shortdescription" : "Wubstem",
+  "category" : "food",
+
+      "effects" : [ [
+      "maxenergyboost2"
+    ] ]
+}

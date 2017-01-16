@@ -1,0 +1,17 @@
+{
+  "itemName" : "littlegoodberry",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "littlegoodberryicon.png",
+  "description" : "Increases damage by 15%.",
+  "shortdescription" : "Little Good Berry",
+  "category" : "food",
+
+  "effects" : [ [
+      {
+        "effect" : "damagebonus",
+        "amount" : 0.15,
+        "duration" : 120
+      }
+    ] ]
+}

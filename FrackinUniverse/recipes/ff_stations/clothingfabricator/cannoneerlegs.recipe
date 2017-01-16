@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "canvas", "count" : 3 },
+    { "item" : "leather", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "cannoneerlegs",
+    "count" : 1
+  },
+  "groups" : [ "clothingfabricator", "armors", "all" ]
+}

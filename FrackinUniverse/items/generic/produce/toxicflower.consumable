@@ -1,0 +1,16 @@
+{
+  "itemName" : "toxicflower",
+  "rarity" : "common",
+  "price" : 5,
+  "inventoryIcon" : "toxicflowericon.png",
+  "description" : "I don't really know if I should eat this..",
+  "shortdescription" : "Toxic Flower",
+  "category" : "food",
+
+      "effects" : [ [
+      {
+        "effect" : "weakpoison",
+        "duration" : 12
+      }
+    ] ]
+}

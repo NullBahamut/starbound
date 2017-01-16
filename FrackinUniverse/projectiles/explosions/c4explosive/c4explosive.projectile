@@ -1,0 +1,29 @@
+{
+  "projectileName" : "c4explosive",
+  "image" : "c4explosive.png",
+  "animationCycle" : 1,
+  "level" : 5,
+  "frameNumber" : 10,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "timeToLive" : 0.01,
+  "knockback" : 60,
+  "fullbright" : true,
+  "knockbackDirectional" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/c4explosive/c4explosive.config"
+    }
+  ],
+  "power" : 24,
+  "piercing" : true,
+  "damageKind" : "hidden",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-14, -14], [-14, 14], [14, 14], [14, -14] ],
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "pointLight" : true,
+  "lightColor" : [244,200,196]
+}

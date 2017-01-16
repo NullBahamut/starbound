@@ -1,0 +1,13 @@
+{
+  "itemName" : "kamaranpods",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "kamaranpods.png",
+  "description" : "Resistant to movement effects.",
+  "shortdescription" : "Kamaran Pod",
+  "category" : "food",
+
+  "effects" : [ [
+      "blacktarimmunity", "fumudslowimmunity", "iceslipimmunity"
+    ] ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "bloodroot",
+  "rarity" : "uncommon",
+  "price" : 10,
+    "category" : "food",
+  "inventoryIcon" : "bloodroot.png",
+  "description" : "Increases your maximum health.",
+  "shortdescription" : "Blood Root",
+  "effects" : [ ["maxhealthboost1"] ]
+}

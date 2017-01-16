@@ -1,0 +1,13 @@
+[
+  {"op":"add","path":"/learnBlueprintsOnPickup","value": [
+        "zeroburst_tech",
+	"mantiziroyalguardchest",
+	"mantiziroyalguardhead",
+	"mantiziroyalguardpants",
+	"fuprophetpants",
+	"fuprophetchest",
+	"fuprophethead",
+	"pumpoutfu",
+	"pumpoutpressurefu"
+    ] }
+]  
