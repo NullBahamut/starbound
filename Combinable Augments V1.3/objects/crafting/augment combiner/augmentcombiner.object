@@ -1,0 +1,61 @@
+{
+  "objectName" : "augmentcombiner",
+  "colonyTags" : [],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "other",
+  "price" : 500,
+  "description" : "One Augment to rule them all!",
+  "shortdescription" : "EPP Augment Combiner",
+  "race" : "generic",
+
+  "inventoryIcon" : "augmentcombinericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "augmentcombiner.png:<color>.<frame>", "fullbright" : true }, { "image" : "augmentcombinerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 22,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "imageLayers" : [ { "image" : "augmentcombiner.png:<color>.<frame>", "fullbright" : true }, { "image" : "augmentcombinerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 22,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "lightColor" : [62, 89, 89],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 1,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0,
+  
+  "health" : 1.5,
+
+  "objectType" : "container",
+
+  "openSounds" : [ "/sfx/objects/mannequin_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/mannequin_close.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/scripted/augment combiner/augmentcombiner.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

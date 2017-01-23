@@ -1,0 +1,9 @@
+{
+  "author" : "C0bra5",
+  "description" : "1 Augment to rule them all, this is the goal of this mod. \n\nYou can combine augments 1 with the other to create the crazyest of augments! \n\nTo merge augments, \n\nhave a fully upgraded inventor table(architect table) \n\nthen craft it for the cost of \n- 10 durasteel bars \n- 5 silver bars \n- 2 silicone board \n- 10 wire \n- 1 battery \n\nplace your new EPP Augment Combiner, \nauggments in to the slots \nclick to merge \n\nblam you now have a new better combined augment! \n\nps: this does not make you augments stronger of you combine 2 smaller ones, we still want some balance in here\n\nin the latest update:\n- fixed the fracking universe mobility and vanilla mobility augment causing the name of the vanilla augment to go away\n- you can now merge epps together and merge epps with augments so that you don't have to build up 1 master op augment but progress while using them.\n- finally fixed the fracking universe Kinetic Field IV showing as Kinetic Field V or any other effect that went to level 5 and up.\n- finally fixed the error causing the fracking universe kinetic field to have no effect if merged with a lower level kinetic field augment",
+  "friendlyName" : "Combinable Augments",
+  "link" : "steam://url/CommunityFilePage/739151610",
+  "name" : "Combinable Augments",
+  "steamContentId" : "739151610",
+  "version" : "1.3"
+}

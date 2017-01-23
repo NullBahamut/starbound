@@ -1,0 +1,19 @@
+{
+  "itemName" : "combinedaugment",
+  "rarity" : "Uncommon",
+  "category" : "eppAugment",
+  "inventoryIcon" : "combinedaugment.png",
+  "shortdescription" : "Combined EPP Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "combined",
+    "displayName" : "combined name",
+    "displayIcon" : "/items/augments/back/combinedaugment.png",
+    "effects" : [  ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}
