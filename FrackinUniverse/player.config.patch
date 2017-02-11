@@ -94,7 +94,7 @@
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "agedrum" } },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "darkrum"  } },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuwoodstorage" } },
-    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuwoodstorage2"  } },    
+    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuwoodstorage2"  } },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fugallows"  } },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuokeaglitchwagon"  } },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuchickenfeeder"  } },
@@ -102,12 +102,12 @@
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuhaypilewheelbarrow"  } },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuhayrollwheelbarrow"  } },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuhaystackwheelbarrow"  } },
-    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fumerchantcart"  } },    
-    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "futransportcart"  } }, 
-    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fupoisonbox"  } }, 
-    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fugoldstorage"  } }, 
-    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fufoodstorage"  } }, 
-    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuwoodbarrels"  } }, 
+    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fumerchantcart"  } },
+    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "futransportcart"  } },
+    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fupoisonbox"  } },
+    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fugoldstorage"  } },
+    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fufoodstorage"  } },
+    { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuwoodbarrels"  } },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "fuwheelbarrow"  } },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "emptyhoneyjar"  } },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "emptyhoneyjar2"  } },
@@ -116,9 +116,9 @@
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "fuhomedoor"} },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "fufrozendoor"} },
     { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "eggincubator"} },
-  {"op" : "add", 
+  {"op" : "add",
   "path" : "/companionsConfig/uniformSlots/head",
   "value" : ["headCosmetic", "head" ]
   }
-  
+
 ]
